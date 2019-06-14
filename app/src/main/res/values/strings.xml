@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Feedback</string>
+    <string name="text_not_network">Unable to get data,please connect to the network and try again.</string>
+    <string name="button_refresh">Refresh</string>
+    <string name="take_photo_upload">Take a photo</string>
+    <string name="amble_upload">Choose from amble</string>
+</resources>

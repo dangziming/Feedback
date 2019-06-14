@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFE6333F</color>
+    <color name="colorPrimaryDark">#FFE6333F</color>
+    <color name="colorAccent">#FFE6333F</color>
+    <color name="navigationBarColor">#FFFFFFFF</color>
+    <drawable name="refresh_red">#FFE6333F</drawable>
+    <drawable name="refresh_white">#FFFFFF</drawable>
+</resources>

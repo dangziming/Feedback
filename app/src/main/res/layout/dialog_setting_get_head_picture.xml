@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/flt_take_photo_upload"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="1px"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/take_photo_upload"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flt_amble_upload"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="2px"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/amble_upload"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+   
+   <ProgressBar
+       android:id="@+id/progressBar"
+       style="?android:attr/progressBarStyleHorizontal"
+       android:layout_width="match_parent"
+       android:layout_height="3dp"
+       android:progressDrawable="@drawable/progressbar"
+       android:visibility="gone"/>
+   <WebView
+       android:id="@+id/webView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+   </WebView>
+
+
+   <LinearLayout
+       android:id="@+id/not_network"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:visibility="gone"
+       android:gravity="center"
+       android:orientation="vertical">
+      <TextView
+          android:layout_width="170dp"
+          android:layout_height="wrap_content"
+          android:textSize="14sp"
+          android:textColor="#FF666666"
+          android:lineSpacingExtra="9dp"
+          android:gravity="center"
+          android:text="@string/text_not_network"/>
+      <Button
+          android:id="@+id/buttonRefresh"
+          android:layout_width="124dp"
+          android:layout_height="29dp"
+          android:layout_marginTop="33dp"
+          android:textAllCaps="false"
+          android:background="@drawable/selector_btn_click_bg"
+          android:textColor="@drawable/selector_btn_click_text_color"
+          android:text="@string/button_refresh"
+          />
+
+   </LinearLayout>
+
+</LinearLayout>
